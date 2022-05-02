@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
   const currentUser = useSelector((state) => state.selectedUser);
   const darkmode = useSelector((state) => state.darkmode);
   const user = JSON.parse(localStorage.getItem("user"));
-
+  console.log(user);
   const { id } = currentUser;
 
   if (darkmode === true) {

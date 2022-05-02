@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import UserInfoCard from "../components/SubComponents/UserInfoCard";
+
 const UserDetails = () => {
   const user = useSelector((state) => state.selectedUser);
 
